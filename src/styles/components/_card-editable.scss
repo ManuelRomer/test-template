@@ -1,0 +1,26 @@
+.editable {
+  &-container {
+    @apply flex flex-col h-full w-80 mx-auto bg-gray-50;
+    @apply rounded-lg cursor-pointer overflow-hidden hover:shadow;
+  }
+
+  &-image {
+    @apply bg-cover h-56 w-32;
+  }
+
+  &-description {
+    @apply flex flex-col text-xs mt-4 text-gray-500;
+  }
+
+  &-action {
+    @apply text-sm px-2 border-l text-indigo-900 cursor-pointer;
+
+    &:first-child {
+      @apply border-none pl-0;
+    }
+
+    &:hover {
+      @apply text-indigo-600 underline;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.team {
+  &-image {
+    @apply mx-auto h-24 w-24 bg-cover rounded-full;
+  }
+
+  &-data {
+    @apply text-center flex-col items-center justify-center;
+  }
+
+  &-title {
+    @apply text-sm text-gray-700;
+  }
+
+  &-position {
+    @apply text-indigo-600 text-xs;
+  }
+
+  &-email {
+    @apply text-gray-700 text-xs cursor-pointer;
+
+    &:hover {
+      @apply text-indigo-500;
+    }
+  }
+}

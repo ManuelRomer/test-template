@@ -1,0 +1,21 @@
+.hint {
+  &-card {
+    @apply flex flex-col items-center justify-center w-80 h-44 rounded-md shadow p-4;
+
+    &:hover {
+      @apply shadow-md;
+    }
+  }
+
+  &-icon {
+    @apply transform scale-200;
+  }
+
+  &-title {
+    @apply text-gray-800 mt-6;
+  }
+
+  &-description {
+    @apply font-light text-sm text-gray-500 text-center;
+  }
+}

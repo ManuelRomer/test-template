@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": false,
+    "strictNullChecks": false,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "types": [
+      "webpack-env",
+      "webpack",
+      "@types/node",
+      "forge-viewer",
+      "google.maps"
+    ],
+    "paths": {
+      "@/*": ["/*"],
+      "@graphql/*": ["graphql/"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.svg", "**/*.vue"],
+  "exclude": ["node_modules"]
+}

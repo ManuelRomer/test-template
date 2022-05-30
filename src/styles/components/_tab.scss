@@ -1,0 +1,9 @@
+.tab {
+  &-container {
+    @apply flex px-4 py-2;
+  }
+
+  &-icon {
+    @apply mr-2 transform scale-90;
+  }
+}

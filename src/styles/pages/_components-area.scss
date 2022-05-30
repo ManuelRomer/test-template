@@ -1,0 +1,9 @@
+.components-area {
+  &-wrapper {
+    @apply flex justify-between items-center mt-4 pt-4;
+  }
+
+  &-section {
+    @apply flex-col p-4 border;
+  }
+}

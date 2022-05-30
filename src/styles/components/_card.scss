@@ -1,0 +1,26 @@
+.card {
+  &-container {
+    @apply flex flex-col h-full w-80 mx-auto bg-gray-50;
+    @apply rounded-lg cursor-pointer overflow-hidden hover:shadow;
+  }
+
+  &-image {
+    @apply h-40 bg-cover w-auto;
+  }
+
+  &-title {
+    @apply text-gray-800 text-sm mt-0;
+  }
+
+  &-title-row {
+    @apply flex justify-between px-2 mt-4;
+  }
+
+  &-description {
+    @apply font-light text-xs mt-4 text-gray-500 px-2;
+  }
+
+  &-price {
+    @apply text-right text-sm;
+  }
+}

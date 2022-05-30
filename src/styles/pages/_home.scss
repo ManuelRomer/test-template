@@ -1,0 +1,9 @@
+.home {
+  &-link {
+    @apply w-64 text-center text-xl border cursor-pointer;
+
+    &:hover {
+      @apply text-blue-500 bg-gray-50;
+    }
+  }
+}

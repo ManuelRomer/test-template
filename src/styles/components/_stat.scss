@@ -1,0 +1,35 @@
+.stat {
+  &-wrapper {
+    @apply relative w-80 bg-white pt-5 px-4 pb-12 shadow rounded-lg overflow-hidden;
+
+    &:hover {
+      @apply shadow-md;
+    }
+  }
+
+  &-title {
+    @apply text-sm font-medium text-gray-500 truncate;
+  }
+
+  &-main-value {
+    @apply mt-1 text-2xl font-semibold text-gray-900;
+  }
+
+  &-icon-wrapper {
+    @apply w-12 h-12 bg-indigo-600 text-white rounded-xl flex;
+    @apply justify-center items-center mr-4;
+  }
+
+  &-action {
+    @apply cursor-pointer;
+
+    &:hover {
+      @apply text-indigo-600 underline;
+    }
+  }
+
+  &-footer {
+    @apply absolute bottom-0 left-0 flex items-center w-full pl-6 text-sm;
+    @apply text-indigo-500 bg-opacity-20 h-14 bg-indigo-50;
+  }
+}
